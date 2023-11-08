@@ -6,6 +6,6 @@ export default function NavBar () {
             <Link to='/orders'>Order History</Link>
             &nbsp; | &nbsp;
             <Link to='/orders/new'>New Order</Link>
-         </nav>
+        </nav>
     )
 }
