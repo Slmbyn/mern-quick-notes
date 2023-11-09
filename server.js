@@ -23,6 +23,7 @@ app.use(express.json());
 
 
 // PUT API ROUTES HERE!, BEFORE THE 'CATCH ALL' ROUTE!!
+app.use('/api/users', require('./routes/api/users'));
 
 
 // The following "catch all" route (note the *) is necessary
