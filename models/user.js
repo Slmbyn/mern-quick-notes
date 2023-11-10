@@ -2,7 +2,7 @@
 
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
-const bcript = require('bcrypt')
+const bcrypt = require('bcrypt')
 
 // Determines how much processing time it will take to perform the hash
 const SALT_ROUNDS = 6
@@ -34,7 +34,7 @@ const userSchema = new Schema({
 
 userSchema.pre('save', async function(next) {
     if (!this.isModified('password')) return next();
-    this.password = await bcript.hash(this.password, SALT_ROUNDS);
+    this.password = await bcrypt.hash(this.password, SALT_ROUNDS);
     return next();
 })
 
