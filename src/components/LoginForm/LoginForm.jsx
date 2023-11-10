@@ -21,6 +21,9 @@ export default function LoginForm({ setUser }) {
       // will resolve to the user object included in the
       // payload of the JSON Web Token (JWT)
       const user = await usersService.login(credentials);
+      // const payload = JSON.parse(atob(user.split('.')[1]));
+      // console.log(payload)
+      // setUser(payload.user);
       setUser(user);
     } catch (err) {
         console.log(err)
