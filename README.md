@@ -5,7 +5,7 @@ Clone this repo to provide the starter code for a comprehensive MERN-Stack proje
 # How To Use This To Create MERN-Stack Projects in the Future:
 Here’s the process to create a new MERN-Stack project that starts with the infrastructure code:
 
-1. Clone the mern-infrastructure repo: git clone <url of mern-infrastructure> <name-of-project>
+1. Clone this repo: git clone <url of mern-infrastructure> <name-of-project>
 Note that the folder created will be same as <name-of-project> instead of mern-infrastructure
 
 2. cd <name-of-project>
@@ -27,6 +27,7 @@ Note that the folder created will be same as <name-of-project> instead of mern-i
 10. Push for the first time: git push -u origin main
 
 11. Have fun coding your new project and don’t forget to make frequent commits!
+
 
 ## Getting Started with Create React App
 
