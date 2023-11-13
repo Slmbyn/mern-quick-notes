@@ -4,7 +4,8 @@ const bcrypt = require('bcrypt')
 
 module.exports = {
     create,
-    login
+    login,
+    checkToken
 }
 
 // create the User once sign-up button is clicked
@@ -28,6 +29,11 @@ async function login(req, res) {
     } catch (err) {
         res.status(400).json('Bad Login')
     }
+}
+
+function checkToken(req, res) {
+    console.log('req.user', req.user);
+    res.json(req.exp);
 }
 
 /*-- Helper Functions --*/
