@@ -1,7 +1,8 @@
 import { useState } from 'react';
 
 export default function NewNoteForm ({ addNote }) {
-    const [newNote, setNewNote] = useState('')
+    const [newNote, setNewNote] = useState([''])
+    console.log(`Value of newNote from form page: ${newNote}`)
 
     function handleAddNote(evt) {
         evt.preventDefault();

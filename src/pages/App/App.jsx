@@ -9,7 +9,8 @@ import NewNoteForm from '../NewNoteForm/NewNoteForm';
 
 export default function App() {
   const [user, setUser] = useState(getUser())
-  const [notes, setNotes] = useState('')
+  const [notes, setNotes] = useState([''])
+  console.log(`Value of notes from app.jsx: ${notes}`)
   function addNote (note) {
     setNotes([...notes, note])
   }
