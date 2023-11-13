@@ -5,10 +5,10 @@ Clone this repo to provide the starter code for a comprehensive MERN-Stack proje
 # How To Use This To Create MERN-Stack Projects in the Future:
 Here’s the process to create a new MERN-Stack project that starts with the infrastructure code:
 
-1. Clone this repo: git clone <url of mern-infrastructure> <name-of-project>
-Note that the folder created will be same as <name-of-project> instead of mern-infrastructure
+1. Clone this repo: git clone "url of mern-infrastructure" "name-of-project" <br>
+Note that the folder created will be same as "name-of-project" instead of mern-infrastructure
 
-2. cd <name-of-project>
+2. cd "name-of-project"
 
 3. Install the Node modules: npm i
 
@@ -20,7 +20,7 @@ Note that the folder created will be same as <name-of-project> instead of mern-i
 
 7. Copy the new GH repo’s URL.
 
-8. Update the remote’s URL: git remote set-url origin <paste the copied GH url>
+8. Update the remote’s URL: git remote set-url origin "paste the copied GH url"
 
 9. Make the initial commit: git add -A && git commit -m "Initial commit"
 
